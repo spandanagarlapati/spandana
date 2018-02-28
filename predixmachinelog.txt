@@ -1,0 +1,4960 @@
+2018-02-27 10:27:18,798[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Received response from server with status: 401. Reason: Unauthorized
+2018-02-27 10:27:18,805[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Unable to send request to Cloud. Reason: 401 Unauthorized
+2018-02-27 10:27:18,805[pool-11-thread-1]|INFO|com.ge.dspmicro.cloud.gateway.impl.GatewayService|115-com.ge.dspmicro.cloud-gateway-17.2.2|Failed to connect to cloud.
+2018-02-27 10:27:30,573[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:28:00,590[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:28:20,154[pool-18-thread-2]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Remain capacity: 1. New task added.
+2018-02-27 10:28:20,154[pool-19-thread-1]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Protocol:SERIAL	 SerialPort:COM1	 UnitId:12	 Reg:5889	 Type:SHORT
+2018-02-27 10:28:21,704[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Failed to read data from node Name: ARA001PRCR01MT01_NDE_TEMP_01	Protocol: SERIAL	UnitId:12	Register:5889	RegisterType:HOLDING	DataType:SHORT	Count:0	BitIndex:0	RegisterBaseAddress:0	BitBaseAddress:0	DefaultModbusByteOrder:true	First16BitLow:true	First32BitLow:true	MSB:false	SerialEncoding:RTU	SerialPortName:COM1	SerialBaudRate:9600	SerialDataBits:8	SerialParity:NONE	SerialStopBits:2.
+java.lang.NullPointerException
+	at com.ghgande.j2mod.modbus.net.SerialConnection.getDescriptivePortName(SerialConnection.java:218)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.open(ModbusSerialTransport.java:135)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.writeMessage(ModbusSerialTransport.java:73)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransaction.execute(ModbusSerialTransaction.java:143)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.executeModbusSerialRead(ModbusCommunication.java:792)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.serialFetchDataByRegisterBlocks(ModbusCommunication.java:249)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.multiRead(ModbusCommunication.java:156)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.blockReadDataValues(ModbusMachineAdapterImpl.java:859)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.run(ModbusMachineAdapterImpl.java:822)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_101]
+2018-02-27 10:28:21,704[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|No valid data consumed, invalid data will not be retained.
+
+2018-02-27 10:28:21,704[pool-15-thread-454]|DEBUG|com.ge.dspmicro.hoover.impl.spillway.SpillwayDataSubscriptionListener|117-com.ge.dspmicro.hoover-impl-17.2.0|Start processing and sending 0 transferable objects
+2018-02-27 10:28:30,594[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:29:00,611[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:29:30,610[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:30:00,627[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:30:20,174[pool-18-thread-2]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Remain capacity: 1. New task added.
+2018-02-27 10:30:20,174[pool-19-thread-1]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Protocol:SERIAL	 SerialPort:COM1	 UnitId:12	 Reg:5889	 Type:SHORT
+2018-02-27 10:30:21,706[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Failed to read data from node Name: ARA001PRCR01MT01_NDE_TEMP_01	Protocol: SERIAL	UnitId:12	Register:5889	RegisterType:HOLDING	DataType:SHORT	Count:0	BitIndex:0	RegisterBaseAddress:0	BitBaseAddress:0	DefaultModbusByteOrder:true	First16BitLow:true	First32BitLow:true	MSB:false	SerialEncoding:RTU	SerialPortName:COM1	SerialBaudRate:9600	SerialDataBits:8	SerialParity:NONE	SerialStopBits:2.
+java.lang.NullPointerException
+	at com.ghgande.j2mod.modbus.net.SerialConnection.getDescriptivePortName(SerialConnection.java:218)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.open(ModbusSerialTransport.java:135)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.writeMessage(ModbusSerialTransport.java:73)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransaction.execute(ModbusSerialTransaction.java:143)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.executeModbusSerialRead(ModbusCommunication.java:792)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.serialFetchDataByRegisterBlocks(ModbusCommunication.java:249)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.multiRead(ModbusCommunication.java:156)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.blockReadDataValues(ModbusMachineAdapterImpl.java:859)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.run(ModbusMachineAdapterImpl.java:822)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_101]
+2018-02-27 10:30:21,706[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|No valid data consumed, invalid data will not be retained.
+
+2018-02-27 10:30:21,706[pool-15-thread-455]|DEBUG|com.ge.dspmicro.hoover.impl.spillway.SpillwayDataSubscriptionListener|117-com.ge.dspmicro.hoover-impl-17.2.0|Start processing and sending 0 transferable objects
+2018-02-27 10:30:30,659[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:31:00,676[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:31:30,686[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:32:00,679[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:32:16,789[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Syncing with Cloud Gateway for tasks.
+2018-02-27 10:32:16,789[pool-11-thread-1]|INFO|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Attempting to connect to cloud.
+2018-02-27 10:32:16,789[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Sending Request device_id: "predixmachinepam"
+number_of_tasks: 1
+capability {
+  key: "COMMAND"
+  value: "2.0.0"
+}
+capability {
+  key: "APPLICATION"
+  value: "1.0.0"
+}
+capability {
+  key: "CONFIGURATION"
+  value: "1.0.0"
+}
+sync_interval: 300
+device_info {
+}
+device_status {
+  cpu_status {
+    cpu_percent_user: 0.39
+    cpu_percent_system: 1.3399999999999999
+    cpu_percent_idle: 98.27
+  }
+  memory_status {
+    total_bytes: 8457859072
+    free_bytes: 1972793344
+  }
+  boot_time {
+    seconds: 1517910532
+    nanos: 125000000
+  }
+  network_info {
+    name: "lo"
+    display_name: "Software Loopback Interface 1"
+    ipv4_addresses: "127.0.0.1/8"
+    ipv6_addresses: "0:0:0:0:0:0:0:1/128"
+  }
+  network_info {
+    name: "net0"
+    display_name: "WAN Miniport (SSTP)"
+  }
+  network_info {
+    name: "net1"
+    display_name: "WAN Miniport (L2TP)"
+  }
+  network_info {
+    name: "net2"
+    display_name: "WAN Miniport (PPTP)"
+  }
+  network_info {
+    name: "ppp0"
+    display_name: "WAN Miniport (PPPOE)"
+  }
+  network_info {
+    name: "eth0"
+    display_name: "WAN Miniport (IPv6)"
+  }
+  network_info {
+    name: "eth1"
+    display_name: "WAN Miniport (Network Monitor)"
+  }
+  network_info {
+    name: "eth2"
+    display_name: "WAN Miniport (IP)"
+  }
+  network_info {
+    name: "ppp1"
+    display_name: "RAS Async Adapter"
+  }
+  network_info {
+    name: "net3"
+    display_name: "WAN Miniport (IKEv2)"
+  }
+  network_info {
+    name: "eth3"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection"
+    ipv4_addresses: "10.56.69.80/24"
+    ipv6_addresses: "fe80:0:0:0:c412:40ca:6c5b:ec36/64"
+  }
+  network_info {
+    name: "net4"
+    display_name: "Microsoft ISATAP Adapter"
+    ipv6_addresses: "fe80:0:0:0:0:5efe:a38:4550/128"
+  }
+  network_info {
+    name: "net5"
+    display_name: "Microsoft ISATAP Adapter #2"
+    ipv6_addresses: "fe80:0:0:0:0:5efe:c0a8:ae01/128"
+    ipv6_addresses: "fe80:0:0:0:0:5efe:c0a8:cb01/128"
+  }
+  network_info {
+    name: "net6"
+    display_name: "Microsoft 6to4 Adapter"
+  }
+  network_info {
+    name: "eth4"
+    display_name: "VMware Virtual Ethernet Adapter for VMnet1"
+    ipv4_addresses: "192.168.203.1/24"
+    ipv6_addresses: "fe80:0:0:0:21b0:fae7:c00d:e9f7/64"
+  }
+  network_info {
+    name: "eth5"
+    display_name: "VMware Virtual Ethernet Adapter for VMnet8"
+    ipv4_addresses: "192.168.174.1/24"
+    ipv6_addresses: "fe80:0:0:0:4d87:90de:9bb0:73be/64"
+  }
+  network_info {
+    name: "net7"
+    display_name: "Microsoft ISATAP Adapter #3"
+  }
+  network_info {
+    name: "eth6"
+    display_name: "Micromax Modem Network Interface"
+  }
+  network_info {
+    name: "net8"
+    display_name: "Microsoft ISATAP Adapter #4"
+  }
+  network_info {
+    name: "net9"
+    display_name: "Microsoft ISATAP Adapter #5"
+  }
+  network_info {
+    name: "net10"
+    display_name: "Microsoft 6to4 Adapter-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net11"
+    display_name: "Microsoft ISATAP Adapter-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net12"
+    display_name: "Microsoft ISATAP Adapter #2-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net13"
+    display_name: "Microsoft ISATAP Adapter #3-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net14"
+    display_name: "Microsoft ISATAP Adapter #4-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net15"
+    display_name: "Microsoft ISATAP Adapter #5-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth7"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth8"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection-WFP LightWeight Filter-0000"
+  }
+  network_info {
+    name: "eth9"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000"
+  }
+  network_info {
+    name: "eth10"
+    display_name: "WAN Miniport (Network Monitor)-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth11"
+    display_name: "WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000"
+  }
+  network_info {
+    name: "eth12"
+    display_name: "WAN Miniport (IP)-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth13"
+    display_name: "WAN Miniport (IP)-QoS Packet Scheduler-0000"
+  }
+  network_info {
+    name: "eth14"
+    display_name: "WAN Miniport (IPv6)-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth15"
+    display_name: "WAN Miniport (IPv6)-QoS Packet Scheduler-0000"
+  }
+  disk_status {
+    type: "NTFS"
+    machine_disk: true
+    total_bytes: 157181538304
+    free_bytes: 26369888256
+  }
+  disk_status {
+    type: "NTFS"
+    machine_disk: true
+    total_bytes: 342819336192
+    free_bytes: 301133856768
+  }
+}
+software_info_list {
+}
+machine_info {
+  machine_version: "17.2.2"
+  bundle {
+    name: "com.prosyst.mbs.system_bundle"
+    version: "8.0.0.r5"
+    state: ACTIVE
+  }
+  bundle {
+    name: "javax.servlet-api"
+    version: "3.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "osgi.cmpn"
+    version: "5.0.0.201305092017"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.api"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.threads"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.db"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.cm.bundle"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.api"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.eventadmin"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.metatype.bundle"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.util.api"
+    version: "1.0.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.compendium.extension"
+    version: "1.1.1001"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.jersey-min"
+    version: "2.22.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.validateroute-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.commons.codec"
+    version: "1.10.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.commons.lang"
+    version: "2.6.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.river-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "bcprov"
+    version: "1.56.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "bcpkix"
+    version: "1.56.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.felix.fileinstall"
+    version: "3.5.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.useradmin"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.ops4j.pax.logging.pax-logging-api"
+    version: "1.8.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.ops4j.pax.logging.pax-logging-service"
+    version: "1.8.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.system.bundle"
+    version: "1.0.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.securityadmin"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.google.protobuf"
+    version: "3.3.1"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.google.protobuf.util"
+    version: "3.3.1"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.predixmachine.protobuf-models"
+    version: "17.2.2"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.google.guava"
+    version: "19.0.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.google.gson"
+    version: "2.7.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.felix.dependencymanager"
+    version: "4.3.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "jackson-core-asl"
+    version: "1.9.13"
+    state: ACTIVE
+  }
+  bundle {
+    name: "jackson-jaxrs"
+    version: "1.9.13"
+    state: ACTIVE
+  }
+  bundle {
+    name: "jackson-mapper-asl"
+    version: "1.9.13"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.provider.security"
+    version: "2.2.0.201506221200"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.provider.multipart"
+    version: "2.2.0.201506221200"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.jaxrs-entityprovider-json"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.device-common"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.commons.lang3"
+    version: "3.5.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.commands"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.scr"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.commands"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.httpcomponents.httpcore"
+    version: "4.4.4"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.servicemix.specs.activation-api-1.1"
+    version: "2.5.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.servicemix.specs.stax-api-1.0"
+    version: "2.5.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.servicemix.specs.jaxb-api-2.2"
+    version: "2.5.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.machinegateway-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsolebranding"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.console"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.publisher"
+    version: "5.3.1.201602281253"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.storeforward-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.httpcomponents.httpclient"
+    version: "4.5.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.kxml2"
+    version: "2.3.0.prosyst3"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.servicemix.bundles.jaxb-impl"
+    version: "2.2.11.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.json"
+    version: "20131018.0.0.prosyst2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.commons.io"
+    version: "2.5.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.commons.fileupload"
+    version: "1.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.databus-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.hoover-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.modelregistry"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "javax.websocket-api"
+    version: "1.0.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.api"
+    version: "9.4.6.v20170531"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.felix.webconsole"
+    version: "4.3.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.webconsole.plugins.event"
+    version: "1.1.6"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.webconsole.plugins.packageadmin"
+    version: "1.0.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.webconsole.plugins.ds"
+    version: "1.0.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.inventory"
+    version: "1.0.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-validateroute"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-storeforward"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-useradmin"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-changepassword"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.util.inventory"
+    version: "1.0.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.web.console.shell"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.web.console.top"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.webservices.jsonrpc.api"
+    version: "1.1.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.webservices.jsonrpc.core"
+    version: "1.1.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.webservices.jsonrpc.handler.useradmin"
+    version: "1.1.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.web.api"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.gitrepository"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.opcua-common"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.util"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.io"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.client"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.http"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.client"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.common"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.javax.websocket"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.websocketriver-send"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.eventhubriver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.security"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.servlet"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.servlet"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.javax.websocket.server"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.server"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.server"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.http.bundle"
+    version: "2.3.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.management-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.httpclient"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.commandhandler-machine"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.devicedetail-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.storeforward-impl"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.mqtt-client"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-mqtt"
+    version: "17.2.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.mqttriver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.httptunnel-common"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.httptunnel-client"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.databus-mqtt"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-databus"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.databusriver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.predixcloud-identity"
+    version: "17.2.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.command-framework"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.package-framework"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.packagehandler"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.autoenrollenv-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.autoenroll-certificate"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.cloud-gateway"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machinegateway-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.hoover-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-opcua"
+    version: "17.2.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-modbus"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.opcua-server"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.opcuariver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-healthmonitor"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.wsclient-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.wsserver"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-techconsole"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-predixcloudenroll"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  prosyst_version: "8.1"
+  prosyst_key_expire: "352 days left"
+  java_version: "1.8.0_101"
+  java_vendor: "Oracle Corporation"
+  service {
+    name: "com.ge.dspmicro.gitrepository"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.gitrepository.api.IGitRepository]"
+  }
+  service {
+    name: "com.ge.dspmicro.gitrepository.rest"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.gitrepository.impl.IGitRest]"
+  }
+  service {
+    name: "com.ge.dspmicro.databusriver.send.edgedata"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databusriver.send.api.IDatabusRiverSendEdgeData, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.databusriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databusriver.send.api.IDatabusRiverSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.predixcloud.identity"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.clientidentity.IClientIdentity]"
+  }
+  service {
+    name: "com.ge.dspmicro.predixcloud.identity.impl.RenewTimer"
+    state: STATE_ACTIVE
+    provided_services: "[com.prosyst.util.timer.TimerListener, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.machinegateway"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.IMachineGateway, com.ge.dspmicro.validateroute.api.IValidateRoute]"
+  }
+  service {
+    name: "com.ge.dspmicro.opcua.server"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.opcua.server.api.IDataManager]"
+  }
+  service {
+    name: "com.ge.dspmicro.autoenrollenv"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.enrollinfo.ICertificateEnrollParameters]"
+  }
+  service {
+    name: "com.ge.dspmicro.jaxrs.entityprovider.json.jacksonprovider"
+    state: STATE_ACTIVE
+    provided_services: "[javax.ws.rs.ext.MessageBodyReader, javax.ws.rs.ext.MessageBodyWriter]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.command.dispatcher"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkcomm.ICommandDispatcher]"
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.opcua"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.useradmin.ActivatorComponent"
+    state: STATE_ACTIVE
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.healthmonitor"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.opcuariver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.opcuariver.send.api.IOpcuaRiverSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.hoover.spillway"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.river.api.IRiverStatusCallback, com.ge.dspmicro.hoover.api.spillway.ISpillway]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.predixcloud.enrollment.AuthCodeServer"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.devicestatus.auth"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.webconsole.predixcloud.enrollment.BasicAuthenticator]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.predixcloud.enrollment"
+    state: STATE_ACTIVE
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.modbus"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.wsclient"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.wsclient.impl.jsr356.WebSocketClientManager]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.packageframework"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageDispatcher]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.validateroutecheck"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.webconsole.validateroute.IValidateRouteCheck]"
+  }
+  service {
+    name: "com.ge.dspmicro.cloud.gateway"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.cloud.gateway.api.ICloudGateway, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.storeforward"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.storeforward.api.IStoreForward, com.ge.dspmicro.validateroute.api.IValidateRoute]"
+  }
+  service {
+    name: "com.ge.dspmicro.storeforward"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.storeforward.api.IStoreForward, com.ge.dspmicro.validateroute.api.IValidateRoute]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.commandhandler.machinecomm"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkcomm.ICommandHandler, com.ge.dspmicro.device.api.config.ICloudClient]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.getavailablelogs"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.GetIPAddressCommand"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.commandhandler.machinecomm.getlog"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.ProsystKeyCommand"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RefreshDeviceDetail"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.RenewCertificate"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunDpkg"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunIfconfig"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunJournalctl"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunTop"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.eventhubriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.wsserver"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.wsserver.WebSocketServerConnector]"
+  }
+  service {
+    name: "com.ge.dspmicro.management"
+    state: STATE_ACTIVE
+    provided_services: "[com.prosyst.mbs.services.useradmin.SimpleLogin]"
+  }
+  service {
+    name: "com.ge.dspmicro.mqttriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.mqttriver.send.api.IMqttRiverSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.packagehandler"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.packagehandler"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.packagehandler"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.httpclient"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.httpclient.api.IHttpClient, com.ge.dspmicro.httpclient.api.IHttpClientFactory, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.httpclient.impl.predixcloud.TokenGetterImpl"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.httpclient.api.ITokenGetter]"
+  }
+  service {
+    name: "com.ge.dspmicro.httpclient.tokenrequest"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.websocketriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.websocketriver.send.api.IWebsocketSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.autoenroller.certificate"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.devicedetail"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.devicedetail.IDeviceDetail]"
+  }
+  service {
+    name: "com.ge.dspmicro.devicedetail.comms.GetDeviceInfoCommand"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.techconsole"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.techconsole.ITechconsole, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.xmlconfigmonitor"
+    state: STATE_ACTIVE
+    provided_services: "[org.apache.felix.fileinstall.ArtifactListener, org.apache.felix.fileinstall.ArtifactInstaller]"
+  }
+  service {
+    name: "com.prosyst.mbs.impl.web.console.auth.pass.WebConsoleAuthService"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.http.HttpContext]"
+  }
+  service {
+    name: "com.ge.dspmicro.httptunnel.client.protocol"
+    state: STATE_UNSATISFIED
+    provided_services: "[com.ge.dspmicro.httptunnel.client.api.IClientTunnelProtocol]"
+  }
+  service {
+    name: "com.ge.dspmicro.httptunnel.client"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.httptunnel.client.impl.IHttpTunnelClient]"
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.databus"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter]"
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.mqtt"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.modelregistry"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.modelregistry.api.IModelRegistry]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.techconsole"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.webconsole.techconsole.ITechConsoleConfigManager, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.databus.mqtt.datacomm"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databus.api.data.IDataComm, com.ge.dspmicro.databus.api.data.internal.IDataCommInternal]"
+  }
+  service {
+    name: "com.ge.dspmicro.databus.mqtt"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databus.mqtt.api.IMqttDatabus]"
+  }
+  service {
+    name: "com.ge.dspmicro.databus.mqtt.edgedatacomm"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databus.api.data.IEdgeDataComm, com.ge.dspmicro.databus.api.data.internal.IDataCommInternal]"
+  }
+  os_info {
+    os_name: "Windows 7"
+    os_version: "6.1"
+    os_arch: "amd64"
+  }
+}
+device_UUID: "3cf75fb9-ff77-4b10-a9d9-f4ae0bf8b2d9"
+docker_info {
+}
+edge_alert_list {
+}
+device_properties {
+}
+
+2018-02-27 10:32:20,194[pool-18-thread-2]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Remain capacity: 1. New task added.
+2018-02-27 10:32:20,194[pool-19-thread-1]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Protocol:SERIAL	 SerialPort:COM1	 UnitId:12	 Reg:5889	 Type:SHORT
+2018-02-27 10:32:21,683[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Failed to read data from node Name: ARA001PRCR01MT01_NDE_TEMP_01	Protocol: SERIAL	UnitId:12	Register:5889	RegisterType:HOLDING	DataType:SHORT	Count:0	BitIndex:0	RegisterBaseAddress:0	BitBaseAddress:0	DefaultModbusByteOrder:true	First16BitLow:true	First32BitLow:true	MSB:false	SerialEncoding:RTU	SerialPortName:COM1	SerialBaudRate:9600	SerialDataBits:8	SerialParity:NONE	SerialStopBits:2.
+java.lang.NullPointerException
+	at com.ghgande.j2mod.modbus.net.SerialConnection.getDescriptivePortName(SerialConnection.java:218)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.open(ModbusSerialTransport.java:135)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.writeMessage(ModbusSerialTransport.java:73)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransaction.execute(ModbusSerialTransaction.java:143)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.executeModbusSerialRead(ModbusCommunication.java:792)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.serialFetchDataByRegisterBlocks(ModbusCommunication.java:249)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.multiRead(ModbusCommunication.java:156)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.blockReadDataValues(ModbusMachineAdapterImpl.java:859)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.run(ModbusMachineAdapterImpl.java:822)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_101]
+2018-02-27 10:32:21,683[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|No valid data consumed, invalid data will not be retained.
+
+2018-02-27 10:32:21,685[pool-15-thread-456]|DEBUG|com.ge.dspmicro.hoover.impl.spillway.SpillwayDataSubscriptionListener|117-com.ge.dspmicro.hoover-impl-17.2.0|Start processing and sending 0 transferable objects
+2018-02-27 10:32:22,350[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Received response from server with status: 401. Reason: Unauthorized
+2018-02-27 10:32:22,350[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Unable to send request to Cloud. Reason: 401 Unauthorized
+2018-02-27 10:32:22,366[pool-11-thread-1]|INFO|com.ge.dspmicro.cloud.gateway.impl.GatewayService|115-com.ge.dspmicro.cloud-gateway-17.2.2|Failed to connect to cloud.
+2018-02-27 10:32:30,697[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:33:00,711[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:33:30,713[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:34:00,701[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:34:20,215[pool-18-thread-2]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Remain capacity: 1. New task added.
+2018-02-27 10:34:20,215[pool-19-thread-1]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Protocol:SERIAL	 SerialPort:COM1	 UnitId:12	 Reg:5889	 Type:SHORT
+2018-02-27 10:34:21,717[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Failed to read data from node Name: ARA001PRCR01MT01_NDE_TEMP_01	Protocol: SERIAL	UnitId:12	Register:5889	RegisterType:HOLDING	DataType:SHORT	Count:0	BitIndex:0	RegisterBaseAddress:0	BitBaseAddress:0	DefaultModbusByteOrder:true	First16BitLow:true	First32BitLow:true	MSB:false	SerialEncoding:RTU	SerialPortName:COM1	SerialBaudRate:9600	SerialDataBits:8	SerialParity:NONE	SerialStopBits:2.
+java.lang.NullPointerException
+	at com.ghgande.j2mod.modbus.net.SerialConnection.getDescriptivePortName(SerialConnection.java:218)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.open(ModbusSerialTransport.java:135)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.writeMessage(ModbusSerialTransport.java:73)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransaction.execute(ModbusSerialTransaction.java:143)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.executeModbusSerialRead(ModbusCommunication.java:792)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.serialFetchDataByRegisterBlocks(ModbusCommunication.java:249)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.multiRead(ModbusCommunication.java:156)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.blockReadDataValues(ModbusMachineAdapterImpl.java:859)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.run(ModbusMachineAdapterImpl.java:822)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_101]
+2018-02-27 10:34:21,717[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|No valid data consumed, invalid data will not be retained.
+
+2018-02-27 10:34:21,717[pool-15-thread-457]|DEBUG|com.ge.dspmicro.hoover.impl.spillway.SpillwayDataSubscriptionListener|117-com.ge.dspmicro.hoover-impl-17.2.0|Start processing and sending 0 transferable objects
+2018-02-27 10:34:30,704[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:35:00,707[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:35:30,710[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:36:00,713[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:36:20,237[pool-18-thread-2]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Remain capacity: 1. New task added.
+2018-02-27 10:36:20,237[pool-19-thread-1]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Protocol:SERIAL	 SerialPort:COM1	 UnitId:12	 Reg:5889	 Type:SHORT
+2018-02-27 10:36:21,714[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Failed to read data from node Name: ARA001PRCR01MT01_NDE_TEMP_01	Protocol: SERIAL	UnitId:12	Register:5889	RegisterType:HOLDING	DataType:SHORT	Count:0	BitIndex:0	RegisterBaseAddress:0	BitBaseAddress:0	DefaultModbusByteOrder:true	First16BitLow:true	First32BitLow:true	MSB:false	SerialEncoding:RTU	SerialPortName:COM1	SerialBaudRate:9600	SerialDataBits:8	SerialParity:NONE	SerialStopBits:2.
+java.lang.NullPointerException
+	at com.ghgande.j2mod.modbus.net.SerialConnection.getDescriptivePortName(SerialConnection.java:218)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.open(ModbusSerialTransport.java:135)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.writeMessage(ModbusSerialTransport.java:73)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransaction.execute(ModbusSerialTransaction.java:143)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.executeModbusSerialRead(ModbusCommunication.java:792)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.serialFetchDataByRegisterBlocks(ModbusCommunication.java:249)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.multiRead(ModbusCommunication.java:156)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.blockReadDataValues(ModbusMachineAdapterImpl.java:859)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.run(ModbusMachineAdapterImpl.java:822)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_101]
+2018-02-27 10:36:21,714[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|No valid data consumed, invalid data will not be retained.
+
+2018-02-27 10:36:21,715[pool-15-thread-458]|DEBUG|com.ge.dspmicro.hoover.impl.spillway.SpillwayDataSubscriptionListener|117-com.ge.dspmicro.hoover-impl-17.2.0|Start processing and sending 0 transferable objects
+2018-02-27 10:36:30,728[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:37:00,731[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:37:16,804[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Syncing with Cloud Gateway for tasks.
+2018-02-27 10:37:16,804[pool-11-thread-1]|INFO|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Attempting to connect to cloud.
+2018-02-27 10:37:16,804[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Sending Request device_id: "predixmachinepam"
+number_of_tasks: 1
+capability {
+  key: "COMMAND"
+  value: "2.0.0"
+}
+capability {
+  key: "APPLICATION"
+  value: "1.0.0"
+}
+capability {
+  key: "CONFIGURATION"
+  value: "1.0.0"
+}
+sync_interval: 300
+device_info {
+}
+device_status {
+  cpu_status {
+    cpu_percent_user: 0.39
+    cpu_percent_system: 1.3399999999999999
+    cpu_percent_idle: 98.27
+  }
+  memory_status {
+    total_bytes: 8457859072
+    free_bytes: 1972793344
+  }
+  boot_time {
+    seconds: 1517910532
+    nanos: 125000000
+  }
+  network_info {
+    name: "lo"
+    display_name: "Software Loopback Interface 1"
+    ipv4_addresses: "127.0.0.1/8"
+    ipv6_addresses: "0:0:0:0:0:0:0:1/128"
+  }
+  network_info {
+    name: "net0"
+    display_name: "WAN Miniport (SSTP)"
+  }
+  network_info {
+    name: "net1"
+    display_name: "WAN Miniport (L2TP)"
+  }
+  network_info {
+    name: "net2"
+    display_name: "WAN Miniport (PPTP)"
+  }
+  network_info {
+    name: "ppp0"
+    display_name: "WAN Miniport (PPPOE)"
+  }
+  network_info {
+    name: "eth0"
+    display_name: "WAN Miniport (IPv6)"
+  }
+  network_info {
+    name: "eth1"
+    display_name: "WAN Miniport (Network Monitor)"
+  }
+  network_info {
+    name: "eth2"
+    display_name: "WAN Miniport (IP)"
+  }
+  network_info {
+    name: "ppp1"
+    display_name: "RAS Async Adapter"
+  }
+  network_info {
+    name: "net3"
+    display_name: "WAN Miniport (IKEv2)"
+  }
+  network_info {
+    name: "eth3"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection"
+    ipv4_addresses: "10.56.69.80/24"
+    ipv6_addresses: "fe80:0:0:0:c412:40ca:6c5b:ec36/64"
+  }
+  network_info {
+    name: "net4"
+    display_name: "Microsoft ISATAP Adapter"
+    ipv6_addresses: "fe80:0:0:0:0:5efe:a38:4550/128"
+  }
+  network_info {
+    name: "net5"
+    display_name: "Microsoft ISATAP Adapter #2"
+    ipv6_addresses: "fe80:0:0:0:0:5efe:c0a8:ae01/128"
+    ipv6_addresses: "fe80:0:0:0:0:5efe:c0a8:cb01/128"
+  }
+  network_info {
+    name: "net6"
+    display_name: "Microsoft 6to4 Adapter"
+  }
+  network_info {
+    name: "eth4"
+    display_name: "VMware Virtual Ethernet Adapter for VMnet1"
+    ipv4_addresses: "192.168.203.1/24"
+    ipv6_addresses: "fe80:0:0:0:21b0:fae7:c00d:e9f7/64"
+  }
+  network_info {
+    name: "eth5"
+    display_name: "VMware Virtual Ethernet Adapter for VMnet8"
+    ipv4_addresses: "192.168.174.1/24"
+    ipv6_addresses: "fe80:0:0:0:4d87:90de:9bb0:73be/64"
+  }
+  network_info {
+    name: "net7"
+    display_name: "Microsoft ISATAP Adapter #3"
+  }
+  network_info {
+    name: "eth6"
+    display_name: "Micromax Modem Network Interface"
+  }
+  network_info {
+    name: "net8"
+    display_name: "Microsoft ISATAP Adapter #4"
+  }
+  network_info {
+    name: "net9"
+    display_name: "Microsoft ISATAP Adapter #5"
+  }
+  network_info {
+    name: "net10"
+    display_name: "Microsoft 6to4 Adapter-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net11"
+    display_name: "Microsoft ISATAP Adapter-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net12"
+    display_name: "Microsoft ISATAP Adapter #2-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net13"
+    display_name: "Microsoft ISATAP Adapter #3-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net14"
+    display_name: "Microsoft ISATAP Adapter #4-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net15"
+    display_name: "Microsoft ISATAP Adapter #5-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth7"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth8"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection-WFP LightWeight Filter-0000"
+  }
+  network_info {
+    name: "eth9"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000"
+  }
+  network_info {
+    name: "eth10"
+    display_name: "WAN Miniport (Network Monitor)-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth11"
+    display_name: "WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000"
+  }
+  network_info {
+    name: "eth12"
+    display_name: "WAN Miniport (IP)-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth13"
+    display_name: "WAN Miniport (IP)-QoS Packet Scheduler-0000"
+  }
+  network_info {
+    name: "eth14"
+    display_name: "WAN Miniport (IPv6)-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth15"
+    display_name: "WAN Miniport (IPv6)-QoS Packet Scheduler-0000"
+  }
+  disk_status {
+    type: "NTFS"
+    machine_disk: true
+    total_bytes: 157181538304
+    free_bytes: 26369888256
+  }
+  disk_status {
+    type: "NTFS"
+    machine_disk: true
+    total_bytes: 342819336192
+    free_bytes: 301133856768
+  }
+}
+software_info_list {
+}
+machine_info {
+  machine_version: "17.2.2"
+  bundle {
+    name: "com.prosyst.mbs.system_bundle"
+    version: "8.0.0.r5"
+    state: ACTIVE
+  }
+  bundle {
+    name: "javax.servlet-api"
+    version: "3.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "osgi.cmpn"
+    version: "5.0.0.201305092017"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.api"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.threads"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.db"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.cm.bundle"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.api"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.eventadmin"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.metatype.bundle"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.util.api"
+    version: "1.0.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.compendium.extension"
+    version: "1.1.1001"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.jersey-min"
+    version: "2.22.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.validateroute-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.commons.codec"
+    version: "1.10.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.commons.lang"
+    version: "2.6.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.river-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "bcprov"
+    version: "1.56.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "bcpkix"
+    version: "1.56.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.felix.fileinstall"
+    version: "3.5.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.useradmin"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.ops4j.pax.logging.pax-logging-api"
+    version: "1.8.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.ops4j.pax.logging.pax-logging-service"
+    version: "1.8.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.system.bundle"
+    version: "1.0.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.securityadmin"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.google.protobuf"
+    version: "3.3.1"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.google.protobuf.util"
+    version: "3.3.1"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.predixmachine.protobuf-models"
+    version: "17.2.2"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.google.guava"
+    version: "19.0.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.google.gson"
+    version: "2.7.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.felix.dependencymanager"
+    version: "4.3.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "jackson-core-asl"
+    version: "1.9.13"
+    state: ACTIVE
+  }
+  bundle {
+    name: "jackson-jaxrs"
+    version: "1.9.13"
+    state: ACTIVE
+  }
+  bundle {
+    name: "jackson-mapper-asl"
+    version: "1.9.13"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.provider.security"
+    version: "2.2.0.201506221200"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.provider.multipart"
+    version: "2.2.0.201506221200"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.jaxrs-entityprovider-json"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.device-common"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.commons.lang3"
+    version: "3.5.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.commands"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.scr"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.commands"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.httpcomponents.httpcore"
+    version: "4.4.4"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.servicemix.specs.activation-api-1.1"
+    version: "2.5.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.servicemix.specs.stax-api-1.0"
+    version: "2.5.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.servicemix.specs.jaxb-api-2.2"
+    version: "2.5.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.machinegateway-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsolebranding"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.console"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.publisher"
+    version: "5.3.1.201602281253"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.storeforward-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.httpcomponents.httpclient"
+    version: "4.5.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.kxml2"
+    version: "2.3.0.prosyst3"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.servicemix.bundles.jaxb-impl"
+    version: "2.2.11.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.json"
+    version: "20131018.0.0.prosyst2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.commons.io"
+    version: "2.5.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.commons.fileupload"
+    version: "1.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.databus-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.hoover-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.modelregistry"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "javax.websocket-api"
+    version: "1.0.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.api"
+    version: "9.4.6.v20170531"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.felix.webconsole"
+    version: "4.3.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.webconsole.plugins.event"
+    version: "1.1.6"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.webconsole.plugins.packageadmin"
+    version: "1.0.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.webconsole.plugins.ds"
+    version: "1.0.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.inventory"
+    version: "1.0.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-validateroute"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-storeforward"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-useradmin"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-changepassword"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.util.inventory"
+    version: "1.0.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.web.console.shell"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.web.console.top"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.webservices.jsonrpc.api"
+    version: "1.1.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.webservices.jsonrpc.core"
+    version: "1.1.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.webservices.jsonrpc.handler.useradmin"
+    version: "1.1.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.web.api"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.gitrepository"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.opcua-common"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.util"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.io"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.client"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.http"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.client"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.common"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.javax.websocket"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.websocketriver-send"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.eventhubriver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.security"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.servlet"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.servlet"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.javax.websocket.server"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.server"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.server"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.http.bundle"
+    version: "2.3.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.management-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.httpclient"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.commandhandler-machine"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.devicedetail-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.storeforward-impl"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.mqtt-client"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-mqtt"
+    version: "17.2.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.mqttriver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.httptunnel-common"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.httptunnel-client"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.databus-mqtt"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-databus"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.databusriver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.predixcloud-identity"
+    version: "17.2.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.command-framework"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.package-framework"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.packagehandler"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.autoenrollenv-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.autoenroll-certificate"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.cloud-gateway"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machinegateway-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.hoover-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-opcua"
+    version: "17.2.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-modbus"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.opcua-server"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.opcuariver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-healthmonitor"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.wsclient-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.wsserver"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-techconsole"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-predixcloudenroll"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  prosyst_version: "8.1"
+  prosyst_key_expire: "352 days left"
+  java_version: "1.8.0_101"
+  java_vendor: "Oracle Corporation"
+  service {
+    name: "com.ge.dspmicro.gitrepository"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.gitrepository.api.IGitRepository]"
+  }
+  service {
+    name: "com.ge.dspmicro.gitrepository.rest"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.gitrepository.impl.IGitRest]"
+  }
+  service {
+    name: "com.ge.dspmicro.databusriver.send.edgedata"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databusriver.send.api.IDatabusRiverSendEdgeData, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.databusriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databusriver.send.api.IDatabusRiverSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.predixcloud.identity"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.clientidentity.IClientIdentity]"
+  }
+  service {
+    name: "com.ge.dspmicro.predixcloud.identity.impl.RenewTimer"
+    state: STATE_ACTIVE
+    provided_services: "[com.prosyst.util.timer.TimerListener, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.machinegateway"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.IMachineGateway, com.ge.dspmicro.validateroute.api.IValidateRoute]"
+  }
+  service {
+    name: "com.ge.dspmicro.opcua.server"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.opcua.server.api.IDataManager]"
+  }
+  service {
+    name: "com.ge.dspmicro.autoenrollenv"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.enrollinfo.ICertificateEnrollParameters]"
+  }
+  service {
+    name: "com.ge.dspmicro.jaxrs.entityprovider.json.jacksonprovider"
+    state: STATE_ACTIVE
+    provided_services: "[javax.ws.rs.ext.MessageBodyReader, javax.ws.rs.ext.MessageBodyWriter]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.command.dispatcher"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkcomm.ICommandDispatcher]"
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.opcua"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.useradmin.ActivatorComponent"
+    state: STATE_ACTIVE
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.healthmonitor"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.opcuariver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.opcuariver.send.api.IOpcuaRiverSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.hoover.spillway"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.river.api.IRiverStatusCallback, com.ge.dspmicro.hoover.api.spillway.ISpillway]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.predixcloud.enrollment.AuthCodeServer"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.devicestatus.auth"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.webconsole.predixcloud.enrollment.BasicAuthenticator]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.predixcloud.enrollment"
+    state: STATE_ACTIVE
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.modbus"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.wsclient"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.wsclient.impl.jsr356.WebSocketClientManager]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.packageframework"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageDispatcher]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.validateroutecheck"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.webconsole.validateroute.IValidateRouteCheck]"
+  }
+  service {
+    name: "com.ge.dspmicro.cloud.gateway"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.cloud.gateway.api.ICloudGateway, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.storeforward"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.storeforward.api.IStoreForward, com.ge.dspmicro.validateroute.api.IValidateRoute]"
+  }
+  service {
+    name: "com.ge.dspmicro.storeforward"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.storeforward.api.IStoreForward, com.ge.dspmicro.validateroute.api.IValidateRoute]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.commandhandler.machinecomm"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkcomm.ICommandHandler, com.ge.dspmicro.device.api.config.ICloudClient]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.getavailablelogs"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.GetIPAddressCommand"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.commandhandler.machinecomm.getlog"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.ProsystKeyCommand"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RefreshDeviceDetail"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.RenewCertificate"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunDpkg"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunIfconfig"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunJournalctl"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunTop"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.eventhubriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.wsserver"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.wsserver.WebSocketServerConnector]"
+  }
+  service {
+    name: "com.ge.dspmicro.management"
+    state: STATE_ACTIVE
+    provided_services: "[com.prosyst.mbs.services.useradmin.SimpleLogin]"
+  }
+  service {
+    name: "com.ge.dspmicro.mqttriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.mqttriver.send.api.IMqttRiverSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.packagehandler"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.packagehandler"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.packagehandler"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.httpclient"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.httpclient.api.IHttpClient, com.ge.dspmicro.httpclient.api.IHttpClientFactory, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.httpclient.impl.predixcloud.TokenGetterImpl"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.httpclient.api.ITokenGetter]"
+  }
+  service {
+    name: "com.ge.dspmicro.httpclient.tokenrequest"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.websocketriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.websocketriver.send.api.IWebsocketSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.autoenroller.certificate"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.devicedetail"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.devicedetail.IDeviceDetail]"
+  }
+  service {
+    name: "com.ge.dspmicro.devicedetail.comms.GetDeviceInfoCommand"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.techconsole"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.techconsole.ITechconsole, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.xmlconfigmonitor"
+    state: STATE_ACTIVE
+    provided_services: "[org.apache.felix.fileinstall.ArtifactListener, org.apache.felix.fileinstall.ArtifactInstaller]"
+  }
+  service {
+    name: "com.prosyst.mbs.impl.web.console.auth.pass.WebConsoleAuthService"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.http.HttpContext]"
+  }
+  service {
+    name: "com.ge.dspmicro.httptunnel.client.protocol"
+    state: STATE_UNSATISFIED
+    provided_services: "[com.ge.dspmicro.httptunnel.client.api.IClientTunnelProtocol]"
+  }
+  service {
+    name: "com.ge.dspmicro.httptunnel.client"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.httptunnel.client.impl.IHttpTunnelClient]"
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.databus"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter]"
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.mqtt"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.modelregistry"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.modelregistry.api.IModelRegistry]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.techconsole"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.webconsole.techconsole.ITechConsoleConfigManager, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.databus.mqtt.datacomm"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databus.api.data.IDataComm, com.ge.dspmicro.databus.api.data.internal.IDataCommInternal]"
+  }
+  service {
+    name: "com.ge.dspmicro.databus.mqtt"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databus.mqtt.api.IMqttDatabus]"
+  }
+  service {
+    name: "com.ge.dspmicro.databus.mqtt.edgedatacomm"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databus.api.data.IEdgeDataComm, com.ge.dspmicro.databus.api.data.internal.IDataCommInternal]"
+  }
+  os_info {
+    os_name: "Windows 7"
+    os_version: "6.1"
+    os_arch: "amd64"
+  }
+}
+device_UUID: "3cf75fb9-ff77-4b10-a9d9-f4ae0bf8b2d9"
+docker_info {
+}
+edge_alert_list {
+}
+device_properties {
+}
+
+2018-02-27 10:37:18,364[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Received response from server with status: 401. Reason: Unauthorized
+2018-02-27 10:37:18,364[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Unable to send request to Cloud. Reason: 401 Unauthorized
+2018-02-27 10:37:18,364[pool-11-thread-1]|INFO|com.ge.dspmicro.cloud.gateway.impl.GatewayService|115-com.ge.dspmicro.cloud-gateway-17.2.2|Failed to connect to cloud.
+2018-02-27 10:37:30,733[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:38:00,739[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:38:20,243[pool-18-thread-2]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Remain capacity: 1. New task added.
+2018-02-27 10:38:20,243[pool-19-thread-1]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Protocol:SERIAL	 SerialPort:COM1	 UnitId:12	 Reg:5889	 Type:SHORT
+2018-02-27 10:38:21,731[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Failed to read data from node Name: ARA001PRCR01MT01_NDE_TEMP_01	Protocol: SERIAL	UnitId:12	Register:5889	RegisterType:HOLDING	DataType:SHORT	Count:0	BitIndex:0	RegisterBaseAddress:0	BitBaseAddress:0	DefaultModbusByteOrder:true	First16BitLow:true	First32BitLow:true	MSB:false	SerialEncoding:RTU	SerialPortName:COM1	SerialBaudRate:9600	SerialDataBits:8	SerialParity:NONE	SerialStopBits:2.
+java.lang.NullPointerException
+	at com.ghgande.j2mod.modbus.net.SerialConnection.getDescriptivePortName(SerialConnection.java:218)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.open(ModbusSerialTransport.java:135)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.writeMessage(ModbusSerialTransport.java:73)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransaction.execute(ModbusSerialTransaction.java:143)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.executeModbusSerialRead(ModbusCommunication.java:792)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.serialFetchDataByRegisterBlocks(ModbusCommunication.java:249)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.multiRead(ModbusCommunication.java:156)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.blockReadDataValues(ModbusMachineAdapterImpl.java:859)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.run(ModbusMachineAdapterImpl.java:822)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_101]
+2018-02-27 10:38:21,731[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|No valid data consumed, invalid data will not be retained.
+
+2018-02-27 10:38:21,732[pool-15-thread-459]|DEBUG|com.ge.dspmicro.hoover.impl.spillway.SpillwayDataSubscriptionListener|117-com.ge.dspmicro.hoover-impl-17.2.0|Start processing and sending 0 transferable objects
+2018-02-27 10:38:30,783[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:39:00,794[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:39:30,768[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:40:00,770[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:40:20,221[pool-18-thread-2]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Remain capacity: 1. New task added.
+2018-02-27 10:40:20,221[pool-19-thread-1]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Protocol:SERIAL	 SerialPort:COM1	 UnitId:12	 Reg:5889	 Type:SHORT
+2018-02-27 10:40:21,722[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Failed to read data from node Name: ARA001PRCR01MT01_NDE_TEMP_01	Protocol: SERIAL	UnitId:12	Register:5889	RegisterType:HOLDING	DataType:SHORT	Count:0	BitIndex:0	RegisterBaseAddress:0	BitBaseAddress:0	DefaultModbusByteOrder:true	First16BitLow:true	First32BitLow:true	MSB:false	SerialEncoding:RTU	SerialPortName:COM1	SerialBaudRate:9600	SerialDataBits:8	SerialParity:NONE	SerialStopBits:2.
+java.lang.NullPointerException
+	at com.ghgande.j2mod.modbus.net.SerialConnection.getDescriptivePortName(SerialConnection.java:218)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.open(ModbusSerialTransport.java:135)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.writeMessage(ModbusSerialTransport.java:73)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransaction.execute(ModbusSerialTransaction.java:143)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.executeModbusSerialRead(ModbusCommunication.java:792)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.serialFetchDataByRegisterBlocks(ModbusCommunication.java:249)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.multiRead(ModbusCommunication.java:156)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.blockReadDataValues(ModbusMachineAdapterImpl.java:859)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.run(ModbusMachineAdapterImpl.java:822)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_101]
+2018-02-27 10:40:21,722[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|No valid data consumed, invalid data will not be retained.
+
+2018-02-27 10:40:21,723[pool-15-thread-460]|DEBUG|com.ge.dspmicro.hoover.impl.spillway.SpillwayDataSubscriptionListener|117-com.ge.dspmicro.hoover-impl-17.2.0|Start processing and sending 0 transferable objects
+2018-02-27 10:40:30,802[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:41:00,789[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:41:30,803[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:42:00,806[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:42:16,804[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Syncing with Cloud Gateway for tasks.
+2018-02-27 10:42:16,804[pool-11-thread-1]|INFO|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Attempting to connect to cloud.
+2018-02-27 10:42:16,807[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Sending Request device_id: "predixmachinepam"
+number_of_tasks: 1
+capability {
+  key: "COMMAND"
+  value: "2.0.0"
+}
+capability {
+  key: "APPLICATION"
+  value: "1.0.0"
+}
+capability {
+  key: "CONFIGURATION"
+  value: "1.0.0"
+}
+sync_interval: 300
+device_info {
+}
+device_status {
+  cpu_status {
+    cpu_percent_user: 0.39
+    cpu_percent_system: 1.3399999999999999
+    cpu_percent_idle: 98.27
+  }
+  memory_status {
+    total_bytes: 8457859072
+    free_bytes: 1972793344
+  }
+  boot_time {
+    seconds: 1517910532
+    nanos: 125000000
+  }
+  network_info {
+    name: "lo"
+    display_name: "Software Loopback Interface 1"
+    ipv4_addresses: "127.0.0.1/8"
+    ipv6_addresses: "0:0:0:0:0:0:0:1/128"
+  }
+  network_info {
+    name: "net0"
+    display_name: "WAN Miniport (SSTP)"
+  }
+  network_info {
+    name: "net1"
+    display_name: "WAN Miniport (L2TP)"
+  }
+  network_info {
+    name: "net2"
+    display_name: "WAN Miniport (PPTP)"
+  }
+  network_info {
+    name: "ppp0"
+    display_name: "WAN Miniport (PPPOE)"
+  }
+  network_info {
+    name: "eth0"
+    display_name: "WAN Miniport (IPv6)"
+  }
+  network_info {
+    name: "eth1"
+    display_name: "WAN Miniport (Network Monitor)"
+  }
+  network_info {
+    name: "eth2"
+    display_name: "WAN Miniport (IP)"
+  }
+  network_info {
+    name: "ppp1"
+    display_name: "RAS Async Adapter"
+  }
+  network_info {
+    name: "net3"
+    display_name: "WAN Miniport (IKEv2)"
+  }
+  network_info {
+    name: "eth3"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection"
+    ipv4_addresses: "10.56.69.80/24"
+    ipv6_addresses: "fe80:0:0:0:c412:40ca:6c5b:ec36/64"
+  }
+  network_info {
+    name: "net4"
+    display_name: "Microsoft ISATAP Adapter"
+    ipv6_addresses: "fe80:0:0:0:0:5efe:a38:4550/128"
+  }
+  network_info {
+    name: "net5"
+    display_name: "Microsoft ISATAP Adapter #2"
+    ipv6_addresses: "fe80:0:0:0:0:5efe:c0a8:ae01/128"
+    ipv6_addresses: "fe80:0:0:0:0:5efe:c0a8:cb01/128"
+  }
+  network_info {
+    name: "net6"
+    display_name: "Microsoft 6to4 Adapter"
+  }
+  network_info {
+    name: "eth4"
+    display_name: "VMware Virtual Ethernet Adapter for VMnet1"
+    ipv4_addresses: "192.168.203.1/24"
+    ipv6_addresses: "fe80:0:0:0:21b0:fae7:c00d:e9f7/64"
+  }
+  network_info {
+    name: "eth5"
+    display_name: "VMware Virtual Ethernet Adapter for VMnet8"
+    ipv4_addresses: "192.168.174.1/24"
+    ipv6_addresses: "fe80:0:0:0:4d87:90de:9bb0:73be/64"
+  }
+  network_info {
+    name: "net7"
+    display_name: "Microsoft ISATAP Adapter #3"
+  }
+  network_info {
+    name: "eth6"
+    display_name: "Micromax Modem Network Interface"
+  }
+  network_info {
+    name: "net8"
+    display_name: "Microsoft ISATAP Adapter #4"
+  }
+  network_info {
+    name: "net9"
+    display_name: "Microsoft ISATAP Adapter #5"
+  }
+  network_info {
+    name: "net10"
+    display_name: "Microsoft 6to4 Adapter-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net11"
+    display_name: "Microsoft ISATAP Adapter-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net12"
+    display_name: "Microsoft ISATAP Adapter #2-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net13"
+    display_name: "Microsoft ISATAP Adapter #3-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net14"
+    display_name: "Microsoft ISATAP Adapter #4-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net15"
+    display_name: "Microsoft ISATAP Adapter #5-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth7"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth8"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection-WFP LightWeight Filter-0000"
+  }
+  network_info {
+    name: "eth9"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000"
+  }
+  network_info {
+    name: "eth10"
+    display_name: "WAN Miniport (Network Monitor)-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth11"
+    display_name: "WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000"
+  }
+  network_info {
+    name: "eth12"
+    display_name: "WAN Miniport (IP)-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth13"
+    display_name: "WAN Miniport (IP)-QoS Packet Scheduler-0000"
+  }
+  network_info {
+    name: "eth14"
+    display_name: "WAN Miniport (IPv6)-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth15"
+    display_name: "WAN Miniport (IPv6)-QoS Packet Scheduler-0000"
+  }
+  disk_status {
+    type: "NTFS"
+    machine_disk: true
+    total_bytes: 157181538304
+    free_bytes: 26369888256
+  }
+  disk_status {
+    type: "NTFS"
+    machine_disk: true
+    total_bytes: 342819336192
+    free_bytes: 301133856768
+  }
+}
+software_info_list {
+}
+machine_info {
+  machine_version: "17.2.2"
+  bundle {
+    name: "com.prosyst.mbs.system_bundle"
+    version: "8.0.0.r5"
+    state: ACTIVE
+  }
+  bundle {
+    name: "javax.servlet-api"
+    version: "3.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "osgi.cmpn"
+    version: "5.0.0.201305092017"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.api"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.threads"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.db"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.cm.bundle"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.api"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.eventadmin"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.metatype.bundle"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.util.api"
+    version: "1.0.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.compendium.extension"
+    version: "1.1.1001"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.jersey-min"
+    version: "2.22.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.validateroute-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.commons.codec"
+    version: "1.10.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.commons.lang"
+    version: "2.6.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.river-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "bcprov"
+    version: "1.56.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "bcpkix"
+    version: "1.56.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.felix.fileinstall"
+    version: "3.5.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.useradmin"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.ops4j.pax.logging.pax-logging-api"
+    version: "1.8.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.ops4j.pax.logging.pax-logging-service"
+    version: "1.8.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.system.bundle"
+    version: "1.0.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.securityadmin"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.google.protobuf"
+    version: "3.3.1"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.google.protobuf.util"
+    version: "3.3.1"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.predixmachine.protobuf-models"
+    version: "17.2.2"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.google.guava"
+    version: "19.0.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.google.gson"
+    version: "2.7.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.felix.dependencymanager"
+    version: "4.3.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "jackson-core-asl"
+    version: "1.9.13"
+    state: ACTIVE
+  }
+  bundle {
+    name: "jackson-jaxrs"
+    version: "1.9.13"
+    state: ACTIVE
+  }
+  bundle {
+    name: "jackson-mapper-asl"
+    version: "1.9.13"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.provider.security"
+    version: "2.2.0.201506221200"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.provider.multipart"
+    version: "2.2.0.201506221200"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.jaxrs-entityprovider-json"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.device-common"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.commons.lang3"
+    version: "3.5.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.commands"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.scr"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.commands"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.httpcomponents.httpcore"
+    version: "4.4.4"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.servicemix.specs.activation-api-1.1"
+    version: "2.5.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.servicemix.specs.stax-api-1.0"
+    version: "2.5.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.servicemix.specs.jaxb-api-2.2"
+    version: "2.5.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.machinegateway-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsolebranding"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.console"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.publisher"
+    version: "5.3.1.201602281253"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.storeforward-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.httpcomponents.httpclient"
+    version: "4.5.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.kxml2"
+    version: "2.3.0.prosyst3"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.servicemix.bundles.jaxb-impl"
+    version: "2.2.11.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.json"
+    version: "20131018.0.0.prosyst2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.commons.io"
+    version: "2.5.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.commons.fileupload"
+    version: "1.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.databus-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.hoover-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.modelregistry"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "javax.websocket-api"
+    version: "1.0.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.api"
+    version: "9.4.6.v20170531"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.felix.webconsole"
+    version: "4.3.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.webconsole.plugins.event"
+    version: "1.1.6"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.webconsole.plugins.packageadmin"
+    version: "1.0.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.webconsole.plugins.ds"
+    version: "1.0.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.inventory"
+    version: "1.0.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-validateroute"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-storeforward"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-useradmin"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-changepassword"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.util.inventory"
+    version: "1.0.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.web.console.shell"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.web.console.top"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.webservices.jsonrpc.api"
+    version: "1.1.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.webservices.jsonrpc.core"
+    version: "1.1.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.webservices.jsonrpc.handler.useradmin"
+    version: "1.1.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.web.api"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.gitrepository"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.opcua-common"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.util"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.io"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.client"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.http"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.client"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.common"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.javax.websocket"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.websocketriver-send"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.eventhubriver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.security"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.servlet"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.servlet"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.javax.websocket.server"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.server"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.server"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.http.bundle"
+    version: "2.3.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.management-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.httpclient"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.commandhandler-machine"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.devicedetail-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.storeforward-impl"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.mqtt-client"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-mqtt"
+    version: "17.2.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.mqttriver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.httptunnel-common"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.httptunnel-client"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.databus-mqtt"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-databus"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.databusriver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.predixcloud-identity"
+    version: "17.2.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.command-framework"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.package-framework"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.packagehandler"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.autoenrollenv-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.autoenroll-certificate"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.cloud-gateway"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machinegateway-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.hoover-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-opcua"
+    version: "17.2.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-modbus"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.opcua-server"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.opcuariver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-healthmonitor"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.wsclient-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.wsserver"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-techconsole"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-predixcloudenroll"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  prosyst_version: "8.1"
+  prosyst_key_expire: "352 days left"
+  java_version: "1.8.0_101"
+  java_vendor: "Oracle Corporation"
+  service {
+    name: "com.ge.dspmicro.gitrepository"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.gitrepository.api.IGitRepository]"
+  }
+  service {
+    name: "com.ge.dspmicro.gitrepository.rest"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.gitrepository.impl.IGitRest]"
+  }
+  service {
+    name: "com.ge.dspmicro.databusriver.send.edgedata"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databusriver.send.api.IDatabusRiverSendEdgeData, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.databusriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databusriver.send.api.IDatabusRiverSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.predixcloud.identity"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.clientidentity.IClientIdentity]"
+  }
+  service {
+    name: "com.ge.dspmicro.predixcloud.identity.impl.RenewTimer"
+    state: STATE_ACTIVE
+    provided_services: "[com.prosyst.util.timer.TimerListener, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.machinegateway"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.IMachineGateway, com.ge.dspmicro.validateroute.api.IValidateRoute]"
+  }
+  service {
+    name: "com.ge.dspmicro.opcua.server"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.opcua.server.api.IDataManager]"
+  }
+  service {
+    name: "com.ge.dspmicro.autoenrollenv"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.enrollinfo.ICertificateEnrollParameters]"
+  }
+  service {
+    name: "com.ge.dspmicro.jaxrs.entityprovider.json.jacksonprovider"
+    state: STATE_ACTIVE
+    provided_services: "[javax.ws.rs.ext.MessageBodyReader, javax.ws.rs.ext.MessageBodyWriter]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.command.dispatcher"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkcomm.ICommandDispatcher]"
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.opcua"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.useradmin.ActivatorComponent"
+    state: STATE_ACTIVE
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.healthmonitor"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.opcuariver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.opcuariver.send.api.IOpcuaRiverSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.hoover.spillway"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.river.api.IRiverStatusCallback, com.ge.dspmicro.hoover.api.spillway.ISpillway]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.predixcloud.enrollment.AuthCodeServer"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.devicestatus.auth"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.webconsole.predixcloud.enrollment.BasicAuthenticator]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.predixcloud.enrollment"
+    state: STATE_ACTIVE
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.modbus"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.wsclient"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.wsclient.impl.jsr356.WebSocketClientManager]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.packageframework"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageDispatcher]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.validateroutecheck"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.webconsole.validateroute.IValidateRouteCheck]"
+  }
+  service {
+    name: "com.ge.dspmicro.cloud.gateway"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.cloud.gateway.api.ICloudGateway, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.storeforward"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.storeforward.api.IStoreForward, com.ge.dspmicro.validateroute.api.IValidateRoute]"
+  }
+  service {
+    name: "com.ge.dspmicro.storeforward"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.storeforward.api.IStoreForward, com.ge.dspmicro.validateroute.api.IValidateRoute]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.commandhandler.machinecomm"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkcomm.ICommandHandler, com.ge.dspmicro.device.api.config.ICloudClient]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.getavailablelogs"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.GetIPAddressCommand"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.commandhandler.machinecomm.getlog"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.ProsystKeyCommand"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RefreshDeviceDetail"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.RenewCertificate"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunDpkg"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunIfconfig"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunJournalctl"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunTop"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.eventhubriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.wsserver"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.wsserver.WebSocketServerConnector]"
+  }
+  service {
+    name: "com.ge.dspmicro.management"
+    state: STATE_ACTIVE
+    provided_services: "[com.prosyst.mbs.services.useradmin.SimpleLogin]"
+  }
+  service {
+    name: "com.ge.dspmicro.mqttriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.mqttriver.send.api.IMqttRiverSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.packagehandler"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.packagehandler"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.packagehandler"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.httpclient"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.httpclient.api.IHttpClient, com.ge.dspmicro.httpclient.api.IHttpClientFactory, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.httpclient.impl.predixcloud.TokenGetterImpl"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.httpclient.api.ITokenGetter]"
+  }
+  service {
+    name: "com.ge.dspmicro.httpclient.tokenrequest"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.websocketriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.websocketriver.send.api.IWebsocketSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.autoenroller.certificate"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.devicedetail"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.devicedetail.IDeviceDetail]"
+  }
+  service {
+    name: "com.ge.dspmicro.devicedetail.comms.GetDeviceInfoCommand"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.techconsole"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.techconsole.ITechconsole, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.xmlconfigmonitor"
+    state: STATE_ACTIVE
+    provided_services: "[org.apache.felix.fileinstall.ArtifactListener, org.apache.felix.fileinstall.ArtifactInstaller]"
+  }
+  service {
+    name: "com.prosyst.mbs.impl.web.console.auth.pass.WebConsoleAuthService"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.http.HttpContext]"
+  }
+  service {
+    name: "com.ge.dspmicro.httptunnel.client.protocol"
+    state: STATE_UNSATISFIED
+    provided_services: "[com.ge.dspmicro.httptunnel.client.api.IClientTunnelProtocol]"
+  }
+  service {
+    name: "com.ge.dspmicro.httptunnel.client"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.httptunnel.client.impl.IHttpTunnelClient]"
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.databus"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter]"
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.mqtt"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.modelregistry"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.modelregistry.api.IModelRegistry]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.techconsole"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.webconsole.techconsole.ITechConsoleConfigManager, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.databus.mqtt.datacomm"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databus.api.data.IDataComm, com.ge.dspmicro.databus.api.data.internal.IDataCommInternal]"
+  }
+  service {
+    name: "com.ge.dspmicro.databus.mqtt"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databus.mqtt.api.IMqttDatabus]"
+  }
+  service {
+    name: "com.ge.dspmicro.databus.mqtt.edgedatacomm"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databus.api.data.IEdgeDataComm, com.ge.dspmicro.databus.api.data.internal.IDataCommInternal]"
+  }
+  os_info {
+    os_name: "Windows 7"
+    os_version: "6.1"
+    os_arch: "amd64"
+  }
+}
+device_UUID: "3cf75fb9-ff77-4b10-a9d9-f4ae0bf8b2d9"
+docker_info {
+}
+edge_alert_list {
+}
+device_properties {
+}
+
+2018-02-27 10:42:18,551[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Received response from server with status: 401. Reason: Unauthorized
+2018-02-27 10:42:18,551[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Unable to send request to Cloud. Reason: 401 Unauthorized
+2018-02-27 10:42:18,551[pool-11-thread-1]|INFO|com.ge.dspmicro.cloud.gateway.impl.GatewayService|115-com.ge.dspmicro.cloud-gateway-17.2.2|Failed to connect to cloud.
+2018-02-27 10:42:20,270[pool-18-thread-2]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Remain capacity: 1. New task added.
+2018-02-27 10:42:20,270[pool-19-thread-1]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Protocol:SERIAL	 SerialPort:COM1	 UnitId:12	 Reg:5889	 Type:SHORT
+2018-02-27 10:42:21,782[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Failed to read data from node Name: ARA001PRCR01MT01_NDE_TEMP_01	Protocol: SERIAL	UnitId:12	Register:5889	RegisterType:HOLDING	DataType:SHORT	Count:0	BitIndex:0	RegisterBaseAddress:0	BitBaseAddress:0	DefaultModbusByteOrder:true	First16BitLow:true	First32BitLow:true	MSB:false	SerialEncoding:RTU	SerialPortName:COM1	SerialBaudRate:9600	SerialDataBits:8	SerialParity:NONE	SerialStopBits:2.
+java.lang.NullPointerException
+	at com.ghgande.j2mod.modbus.net.SerialConnection.getDescriptivePortName(SerialConnection.java:218)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.open(ModbusSerialTransport.java:135)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.writeMessage(ModbusSerialTransport.java:73)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransaction.execute(ModbusSerialTransaction.java:143)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.executeModbusSerialRead(ModbusCommunication.java:792)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.serialFetchDataByRegisterBlocks(ModbusCommunication.java:249)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.multiRead(ModbusCommunication.java:156)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.blockReadDataValues(ModbusMachineAdapterImpl.java:859)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.run(ModbusMachineAdapterImpl.java:822)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_101]
+2018-02-27 10:42:21,782[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|No valid data consumed, invalid data will not be retained.
+
+2018-02-27 10:42:21,782[pool-15-thread-461]|DEBUG|com.ge.dspmicro.hoover.impl.spillway.SpillwayDataSubscriptionListener|117-com.ge.dspmicro.hoover-impl-17.2.0|Start processing and sending 0 transferable objects
+2018-02-27 10:42:30,835[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:43:00,837[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:43:30,839[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:44:00,842[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:44:20,290[pool-18-thread-2]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Remain capacity: 1. New task added.
+2018-02-27 10:44:20,290[pool-19-thread-1]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Protocol:SERIAL	 SerialPort:COM1	 UnitId:12	 Reg:5889	 Type:SHORT
+2018-02-27 10:44:21,810[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Failed to read data from node Name: ARA001PRCR01MT01_NDE_TEMP_01	Protocol: SERIAL	UnitId:12	Register:5889	RegisterType:HOLDING	DataType:SHORT	Count:0	BitIndex:0	RegisterBaseAddress:0	BitBaseAddress:0	DefaultModbusByteOrder:true	First16BitLow:true	First32BitLow:true	MSB:false	SerialEncoding:RTU	SerialPortName:COM1	SerialBaudRate:9600	SerialDataBits:8	SerialParity:NONE	SerialStopBits:2.
+java.lang.NullPointerException
+	at com.ghgande.j2mod.modbus.net.SerialConnection.getDescriptivePortName(SerialConnection.java:218)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.open(ModbusSerialTransport.java:135)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.writeMessage(ModbusSerialTransport.java:73)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransaction.execute(ModbusSerialTransaction.java:143)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.executeModbusSerialRead(ModbusCommunication.java:792)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.serialFetchDataByRegisterBlocks(ModbusCommunication.java:249)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.multiRead(ModbusCommunication.java:156)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.blockReadDataValues(ModbusMachineAdapterImpl.java:859)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.run(ModbusMachineAdapterImpl.java:822)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_101]
+2018-02-27 10:44:21,810[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|No valid data consumed, invalid data will not be retained.
+
+2018-02-27 10:44:21,810[pool-15-thread-462]|DEBUG|com.ge.dspmicro.hoover.impl.spillway.SpillwayDataSubscriptionListener|117-com.ge.dspmicro.hoover-impl-17.2.0|Start processing and sending 0 transferable objects
+2018-02-27 10:44:30,844[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:45:00,847[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:45:30,856[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:46:00,858[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:46:20,311[pool-18-thread-2]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Remain capacity: 1. New task added.
+2018-02-27 10:46:20,311[pool-19-thread-1]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Protocol:SERIAL	 SerialPort:COM1	 UnitId:12	 Reg:5889	 Type:SHORT
+2018-02-27 10:46:21,828[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Failed to read data from node Name: ARA001PRCR01MT01_NDE_TEMP_01	Protocol: SERIAL	UnitId:12	Register:5889	RegisterType:HOLDING	DataType:SHORT	Count:0	BitIndex:0	RegisterBaseAddress:0	BitBaseAddress:0	DefaultModbusByteOrder:true	First16BitLow:true	First32BitLow:true	MSB:false	SerialEncoding:RTU	SerialPortName:COM1	SerialBaudRate:9600	SerialDataBits:8	SerialParity:NONE	SerialStopBits:2.
+java.lang.NullPointerException
+	at com.ghgande.j2mod.modbus.net.SerialConnection.getDescriptivePortName(SerialConnection.java:218)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.open(ModbusSerialTransport.java:135)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.writeMessage(ModbusSerialTransport.java:73)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransaction.execute(ModbusSerialTransaction.java:143)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.executeModbusSerialRead(ModbusCommunication.java:792)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.serialFetchDataByRegisterBlocks(ModbusCommunication.java:249)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.multiRead(ModbusCommunication.java:156)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.blockReadDataValues(ModbusMachineAdapterImpl.java:859)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.run(ModbusMachineAdapterImpl.java:822)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_101]
+2018-02-27 10:46:21,828[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|No valid data consumed, invalid data will not be retained.
+
+2018-02-27 10:46:21,828[pool-15-thread-463]|DEBUG|com.ge.dspmicro.hoover.impl.spillway.SpillwayDataSubscriptionListener|117-com.ge.dspmicro.hoover-impl-17.2.0|Start processing and sending 0 transferable objects
+2018-02-27 10:46:30,860[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:47:00,863[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:47:16,831[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Syncing with Cloud Gateway for tasks.
+2018-02-27 10:47:16,831[pool-11-thread-1]|INFO|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Attempting to connect to cloud.
+2018-02-27 10:47:16,831[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Sending Request device_id: "predixmachinepam"
+number_of_tasks: 1
+capability {
+  key: "COMMAND"
+  value: "2.0.0"
+}
+capability {
+  key: "APPLICATION"
+  value: "1.0.0"
+}
+capability {
+  key: "CONFIGURATION"
+  value: "1.0.0"
+}
+sync_interval: 300
+device_info {
+}
+device_status {
+  cpu_status {
+    cpu_percent_user: 0.39
+    cpu_percent_system: 1.3399999999999999
+    cpu_percent_idle: 98.27
+  }
+  memory_status {
+    total_bytes: 8457859072
+    free_bytes: 1972793344
+  }
+  boot_time {
+    seconds: 1517910532
+    nanos: 125000000
+  }
+  network_info {
+    name: "lo"
+    display_name: "Software Loopback Interface 1"
+    ipv4_addresses: "127.0.0.1/8"
+    ipv6_addresses: "0:0:0:0:0:0:0:1/128"
+  }
+  network_info {
+    name: "net0"
+    display_name: "WAN Miniport (SSTP)"
+  }
+  network_info {
+    name: "net1"
+    display_name: "WAN Miniport (L2TP)"
+  }
+  network_info {
+    name: "net2"
+    display_name: "WAN Miniport (PPTP)"
+  }
+  network_info {
+    name: "ppp0"
+    display_name: "WAN Miniport (PPPOE)"
+  }
+  network_info {
+    name: "eth0"
+    display_name: "WAN Miniport (IPv6)"
+  }
+  network_info {
+    name: "eth1"
+    display_name: "WAN Miniport (Network Monitor)"
+  }
+  network_info {
+    name: "eth2"
+    display_name: "WAN Miniport (IP)"
+  }
+  network_info {
+    name: "ppp1"
+    display_name: "RAS Async Adapter"
+  }
+  network_info {
+    name: "net3"
+    display_name: "WAN Miniport (IKEv2)"
+  }
+  network_info {
+    name: "eth3"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection"
+    ipv4_addresses: "10.56.69.80/24"
+    ipv6_addresses: "fe80:0:0:0:c412:40ca:6c5b:ec36/64"
+  }
+  network_info {
+    name: "net4"
+    display_name: "Microsoft ISATAP Adapter"
+    ipv6_addresses: "fe80:0:0:0:0:5efe:a38:4550/128"
+  }
+  network_info {
+    name: "net5"
+    display_name: "Microsoft ISATAP Adapter #2"
+    ipv6_addresses: "fe80:0:0:0:0:5efe:c0a8:ae01/128"
+    ipv6_addresses: "fe80:0:0:0:0:5efe:c0a8:cb01/128"
+  }
+  network_info {
+    name: "net6"
+    display_name: "Microsoft 6to4 Adapter"
+  }
+  network_info {
+    name: "eth4"
+    display_name: "VMware Virtual Ethernet Adapter for VMnet1"
+    ipv4_addresses: "192.168.203.1/24"
+    ipv6_addresses: "fe80:0:0:0:21b0:fae7:c00d:e9f7/64"
+  }
+  network_info {
+    name: "eth5"
+    display_name: "VMware Virtual Ethernet Adapter for VMnet8"
+    ipv4_addresses: "192.168.174.1/24"
+    ipv6_addresses: "fe80:0:0:0:4d87:90de:9bb0:73be/64"
+  }
+  network_info {
+    name: "net7"
+    display_name: "Microsoft ISATAP Adapter #3"
+  }
+  network_info {
+    name: "eth6"
+    display_name: "Micromax Modem Network Interface"
+  }
+  network_info {
+    name: "net8"
+    display_name: "Microsoft ISATAP Adapter #4"
+  }
+  network_info {
+    name: "net9"
+    display_name: "Microsoft ISATAP Adapter #5"
+  }
+  network_info {
+    name: "net10"
+    display_name: "Microsoft 6to4 Adapter-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net11"
+    display_name: "Microsoft ISATAP Adapter-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net12"
+    display_name: "Microsoft ISATAP Adapter #2-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net13"
+    display_name: "Microsoft ISATAP Adapter #3-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net14"
+    display_name: "Microsoft ISATAP Adapter #4-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "net15"
+    display_name: "Microsoft ISATAP Adapter #5-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth7"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth8"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection-WFP LightWeight Filter-0000"
+  }
+  network_info {
+    name: "eth9"
+    display_name: "Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000"
+  }
+  network_info {
+    name: "eth10"
+    display_name: "WAN Miniport (Network Monitor)-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth11"
+    display_name: "WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000"
+  }
+  network_info {
+    name: "eth12"
+    display_name: "WAN Miniport (IP)-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth13"
+    display_name: "WAN Miniport (IP)-QoS Packet Scheduler-0000"
+  }
+  network_info {
+    name: "eth14"
+    display_name: "WAN Miniport (IPv6)-McAfee NDIS Light-Weight Filter-0000"
+  }
+  network_info {
+    name: "eth15"
+    display_name: "WAN Miniport (IPv6)-QoS Packet Scheduler-0000"
+  }
+  disk_status {
+    type: "NTFS"
+    machine_disk: true
+    total_bytes: 157181538304
+    free_bytes: 26369888256
+  }
+  disk_status {
+    type: "NTFS"
+    machine_disk: true
+    total_bytes: 342819336192
+    free_bytes: 301133856768
+  }
+}
+software_info_list {
+}
+machine_info {
+  machine_version: "17.2.2"
+  bundle {
+    name: "com.prosyst.mbs.system_bundle"
+    version: "8.0.0.r5"
+    state: ACTIVE
+  }
+  bundle {
+    name: "javax.servlet-api"
+    version: "3.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "osgi.cmpn"
+    version: "5.0.0.201305092017"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.api"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.threads"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.db"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.cm.bundle"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.api"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.eventadmin"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.metatype.bundle"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.util.api"
+    version: "1.0.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.compendium.extension"
+    version: "1.1.1001"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.jersey-min"
+    version: "2.22.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.validateroute-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.commons.codec"
+    version: "1.10.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.commons.lang"
+    version: "2.6.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.river-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "bcprov"
+    version: "1.56.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "bcpkix"
+    version: "1.56.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.felix.fileinstall"
+    version: "3.5.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.useradmin"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.ops4j.pax.logging.pax-logging-api"
+    version: "1.8.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.ops4j.pax.logging.pax-logging-service"
+    version: "1.8.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.system.bundle"
+    version: "1.0.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.securityadmin"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.google.protobuf"
+    version: "3.3.1"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.google.protobuf.util"
+    version: "3.3.1"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.predixmachine.protobuf-models"
+    version: "17.2.2"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.google.guava"
+    version: "19.0.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.google.gson"
+    version: "2.7.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.felix.dependencymanager"
+    version: "4.3.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "jackson-core-asl"
+    version: "1.9.13"
+    state: ACTIVE
+  }
+  bundle {
+    name: "jackson-jaxrs"
+    version: "1.9.13"
+    state: ACTIVE
+  }
+  bundle {
+    name: "jackson-mapper-asl"
+    version: "1.9.13"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.provider.security"
+    version: "2.2.0.201506221200"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.provider.multipart"
+    version: "2.2.0.201506221200"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.jaxrs-entityprovider-json"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.device-common"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.commons.lang3"
+    version: "3.5.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.commands"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.scr"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.osgi.commands"
+    version: "1.1.1001"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.httpcomponents.httpcore"
+    version: "4.4.4"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.servicemix.specs.activation-api-1.1"
+    version: "2.5.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.servicemix.specs.stax-api-1.0"
+    version: "2.5.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.servicemix.specs.jaxb-api-2.2"
+    version: "2.5.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.machinegateway-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsolebranding"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.prosyst.mbs.core.console"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.eclipsesource.jaxrs.publisher"
+    version: "5.3.1.201602281253"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.storeforward-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.httpcomponents.httpclient"
+    version: "4.5.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.kxml2"
+    version: "2.3.0.prosyst3"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.servicemix.bundles.jaxb-impl"
+    version: "2.2.11.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.json"
+    version: "20131018.0.0.prosyst2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.commons.io"
+    version: "2.5.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.commons.fileupload"
+    version: "1.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.databus-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.hoover-api"
+    version: "17.2.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "com.ge.dspmicro.modelregistry"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "javax.websocket-api"
+    version: "1.0.0"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.api"
+    version: "9.4.6.v20170531"
+    state: RESOLVED
+  }
+  bundle {
+    name: "org.apache.felix.webconsole"
+    version: "4.3.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.webconsole.plugins.event"
+    version: "1.1.6"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.webconsole.plugins.packageadmin"
+    version: "1.0.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.webconsole.plugins.ds"
+    version: "1.0.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.inventory"
+    version: "1.0.4"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-validateroute"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-storeforward"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-useradmin"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-changepassword"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.util.inventory"
+    version: "1.0.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.web.console.shell"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.web.console.top"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.webservices.jsonrpc.api"
+    version: "1.1.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.webservices.jsonrpc.core"
+    version: "1.1.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.webservices.jsonrpc.handler.useradmin"
+    version: "1.1.1000"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.prosyst.mbs.web.api"
+    version: "1.1.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.gitrepository"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.opcua-common"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.util"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.io"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.client"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.http"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.client"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.common"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.javax.websocket"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.websocketriver-send"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.eventhubriver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.security"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.servlet"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.servlet"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.javax.websocket.server"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.server"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.eclipse.jetty.websocket.server"
+    version: "9.4.6.v20170531"
+    state: ACTIVE
+  }
+  bundle {
+    name: "org.apache.felix.http.bundle"
+    version: "2.3.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.management-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.httpclient"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.commandhandler-machine"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.devicedetail-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.storeforward-impl"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.mqtt-client"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-mqtt"
+    version: "17.2.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.mqttriver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.httptunnel-common"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.httptunnel-client"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.databus-mqtt"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-databus"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.databusriver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.predixcloud-identity"
+    version: "17.2.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.command-framework"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.package-framework"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.packagehandler"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.autoenrollenv-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.autoenroll-certificate"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.cloud-gateway"
+    version: "17.2.2"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machinegateway-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.hoover-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-opcua"
+    version: "17.2.1"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-modbus"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.opcua-server"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.opcuariver-send"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.machineadapter-healthmonitor"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.wsclient-impl"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.wsserver"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-techconsole"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  bundle {
+    name: "com.ge.dspmicro.webconsole-predixcloudenroll"
+    version: "17.2.0"
+    state: ACTIVE
+  }
+  prosyst_version: "8.1"
+  prosyst_key_expire: "352 days left"
+  java_version: "1.8.0_101"
+  java_vendor: "Oracle Corporation"
+  service {
+    name: "com.ge.dspmicro.gitrepository"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.gitrepository.api.IGitRepository]"
+  }
+  service {
+    name: "com.ge.dspmicro.gitrepository.rest"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.gitrepository.impl.IGitRest]"
+  }
+  service {
+    name: "com.ge.dspmicro.databusriver.send.edgedata"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databusriver.send.api.IDatabusRiverSendEdgeData, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.databusriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databusriver.send.api.IDatabusRiverSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.predixcloud.identity"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.clientidentity.IClientIdentity]"
+  }
+  service {
+    name: "com.ge.dspmicro.predixcloud.identity.impl.RenewTimer"
+    state: STATE_ACTIVE
+    provided_services: "[com.prosyst.util.timer.TimerListener, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.machinegateway"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.IMachineGateway, com.ge.dspmicro.validateroute.api.IValidateRoute]"
+  }
+  service {
+    name: "com.ge.dspmicro.opcua.server"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.opcua.server.api.IDataManager]"
+  }
+  service {
+    name: "com.ge.dspmicro.autoenrollenv"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.enrollinfo.ICertificateEnrollParameters]"
+  }
+  service {
+    name: "com.ge.dspmicro.jaxrs.entityprovider.json.jacksonprovider"
+    state: STATE_ACTIVE
+    provided_services: "[javax.ws.rs.ext.MessageBodyReader, javax.ws.rs.ext.MessageBodyWriter]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.command.dispatcher"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkcomm.ICommandDispatcher]"
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.opcua"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.useradmin.ActivatorComponent"
+    state: STATE_ACTIVE
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.healthmonitor"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.opcuariver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.opcuariver.send.api.IOpcuaRiverSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.hoover.spillway"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.river.api.IRiverStatusCallback, com.ge.dspmicro.hoover.api.spillway.ISpillway]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.predixcloud.enrollment.AuthCodeServer"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.devicestatus.auth"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.webconsole.predixcloud.enrollment.BasicAuthenticator]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.predixcloud.enrollment"
+    state: STATE_ACTIVE
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.modbus"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.wsclient"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.wsclient.impl.jsr356.WebSocketClientManager]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.packageframework"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageDispatcher]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.validateroutecheck"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.webconsole.validateroute.IValidateRouteCheck]"
+  }
+  service {
+    name: "com.ge.dspmicro.cloud.gateway"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.cloud.gateway.api.ICloudGateway, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.storeforward"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.storeforward.api.IStoreForward, com.ge.dspmicro.validateroute.api.IValidateRoute]"
+  }
+  service {
+    name: "com.ge.dspmicro.storeforward"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.storeforward.api.IStoreForward, com.ge.dspmicro.validateroute.api.IValidateRoute]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.commandhandler.machinecomm"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkcomm.ICommandHandler, com.ge.dspmicro.device.api.config.ICloudClient]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.getavailablelogs"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.GetIPAddressCommand"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.commandhandler.machinecomm.getlog"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.ProsystKeyCommand"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RefreshDeviceDetail"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.impl.commands.RenewCertificate"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunDpkg"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunIfconfig"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunJournalctl"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.commandhandler.machinecomm.RunTop"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.eventhubriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.wsserver"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.wsserver.WebSocketServerConnector]"
+  }
+  service {
+    name: "com.ge.dspmicro.management"
+    state: STATE_ACTIVE
+    provided_services: "[com.prosyst.mbs.services.useradmin.SimpleLogin]"
+  }
+  service {
+    name: "com.ge.dspmicro.mqttriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.mqttriver.send.api.IMqttRiverSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.packagehandler"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.packagehandler"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.packagehandler"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.frameworkpkg.IPackageHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.httpclient"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.httpclient.api.IHttpClient, com.ge.dspmicro.httpclient.api.IHttpClientFactory, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.httpclient.impl.predixcloud.TokenGetterImpl"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.httpclient.api.ITokenGetter]"
+  }
+  service {
+    name: "com.ge.dspmicro.httpclient.tokenrequest"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.websocketriver.send"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.websocketriver.send.api.IWebsocketSend, com.ge.dspmicro.river.api.IRiverSend]"
+  }
+  service {
+    name: "com.ge.dspmicro.autoenroller.certificate"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.devicedetail"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.devicedetail.IDeviceDetail]"
+  }
+  service {
+    name: "com.ge.dspmicro.devicedetail.comms.GetDeviceInfoCommand"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.commandhandler.machine.api.internal.IMachineComm]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.techconsole"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.device.api.techconsole.ITechconsole, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.device.xmlconfigmonitor"
+    state: STATE_ACTIVE
+    provided_services: "[org.apache.felix.fileinstall.ArtifactListener, org.apache.felix.fileinstall.ArtifactInstaller]"
+  }
+  service {
+    name: "com.prosyst.mbs.impl.web.console.auth.pass.WebConsoleAuthService"
+    state: STATE_ACTIVE
+    provided_services: "[org.osgi.service.http.HttpContext]"
+  }
+  service {
+    name: "com.ge.dspmicro.httptunnel.client.protocol"
+    state: STATE_UNSATISFIED
+    provided_services: "[com.ge.dspmicro.httptunnel.client.api.IClientTunnelProtocol]"
+  }
+  service {
+    name: "com.ge.dspmicro.httptunnel.client"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.httptunnel.client.impl.IHttpTunnelClient]"
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.databus"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter]"
+  }
+  service {
+    name: "com.ge.dspmicro.machineadapter.mqtt"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter, com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter, com.ge.dspmicro.device.api.xmlmonitor.IXmlListener]"
+  }
+  service {
+    name: "com.ge.dspmicro.modelregistry"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.modelregistry.api.IModelRegistry]"
+  }
+  service {
+    name: "com.ge.dspmicro.webconsole.techconsole"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.webconsole.techconsole.ITechConsoleConfigManager, org.osgi.service.event.EventHandler]"
+  }
+  service {
+    name: "com.ge.dspmicro.databus.mqtt.datacomm"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databus.api.data.IDataComm, com.ge.dspmicro.databus.api.data.internal.IDataCommInternal]"
+  }
+  service {
+    name: "com.ge.dspmicro.databus.mqtt"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databus.mqtt.api.IMqttDatabus]"
+  }
+  service {
+    name: "com.ge.dspmicro.databus.mqtt.edgedatacomm"
+    state: STATE_ACTIVE
+    provided_services: "[com.ge.dspmicro.databus.api.data.IEdgeDataComm, com.ge.dspmicro.databus.api.data.internal.IDataCommInternal]"
+  }
+  os_info {
+    os_name: "Windows 7"
+    os_version: "6.1"
+    os_arch: "amd64"
+  }
+}
+device_UUID: "3cf75fb9-ff77-4b10-a9d9-f4ae0bf8b2d9"
+docker_info {
+}
+edge_alert_list {
+}
+device_properties {
+}
+
+2018-02-27 10:47:18,329[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Received response from server with status: 401. Reason: Unauthorized
+2018-02-27 10:47:18,329[pool-11-thread-1]|DEBUG|com.ge.dspmicro.cloud.gateway.impl.GatewaySync|115-com.ge.dspmicro.cloud-gateway-17.2.2|Unable to send request to Cloud. Reason: 401 Unauthorized
+2018-02-27 10:47:18,329[pool-11-thread-1]|INFO|com.ge.dspmicro.cloud.gateway.impl.GatewayService|115-com.ge.dspmicro.cloud-gateway-17.2.2|Failed to connect to cloud.
+2018-02-27 10:47:30,866[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:48:00,869[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:48:20,331[pool-18-thread-2]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Remain capacity: 1. New task added.
+2018-02-27 10:48:20,331[pool-19-thread-1]|DEBUG|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Protocol:SERIAL	 SerialPort:COM1	 UnitId:12	 Reg:5889	 Type:SHORT
+2018-02-27 10:48:21,819[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|Failed to read data from node Name: ARA001PRCR01MT01_NDE_TEMP_01	Protocol: SERIAL	UnitId:12	Register:5889	RegisterType:HOLDING	DataType:SHORT	Count:0	BitIndex:0	RegisterBaseAddress:0	BitBaseAddress:0	DefaultModbusByteOrder:true	First16BitLow:true	First32BitLow:true	MSB:false	SerialEncoding:RTU	SerialPortName:COM1	SerialBaudRate:9600	SerialDataBits:8	SerialParity:NONE	SerialStopBits:2.
+java.lang.NullPointerException
+	at com.ghgande.j2mod.modbus.net.SerialConnection.getDescriptivePortName(SerialConnection.java:218)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.open(ModbusSerialTransport.java:135)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransport.writeMessage(ModbusSerialTransport.java:73)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ghgande.j2mod.modbus.io.ModbusSerialTransaction.execute(ModbusSerialTransaction.java:143)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.executeModbusSerialRead(ModbusCommunication.java:792)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.serialFetchDataByRegisterBlocks(ModbusCommunication.java:249)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication.multiRead(ModbusCommunication.java:156)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.blockReadDataValues(ModbusMachineAdapterImpl.java:859)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at com.ge.dspmicro.machineadapter.modbus.impl.ModbusMachineAdapterImpl$SubscriptionWorker.run(ModbusMachineAdapterImpl.java:822)[119:com.ge.dspmicro.machineadapter-modbus:17.2.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745)[:1.8.0_101]
+2018-02-27 10:48:21,819[pool-19-thread-1]|ERROR|com.ge.dspmicro.machineadapter.modbus.impl.ModbusCommunication|119-com.ge.dspmicro.machineadapter-modbus-17.2.0|No valid data consumed, invalid data will not be retained.
+
+2018-02-27 10:48:21,820[pool-15-thread-464]|DEBUG|com.ge.dspmicro.hoover.impl.spillway.SpillwayDataSubscriptionListener|117-com.ge.dspmicro.hoover-impl-17.2.0|Start processing and sending 0 transferable objects
+2018-02-27 10:48:30,871[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:49:00,874[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:49:30,876[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
+2018-02-27 10:50:00,880[Thread-45]|DEBUG|com.ge.dspmicro.device.packageframework.impl.SoftwareStatusWatcher|111-com.ge.dspmicro.package-framework-17.2.0|No WatchKey event was generated. Will scan folder manually.
